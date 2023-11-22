@@ -129,6 +129,7 @@
     color: #FFCB05;
     font-weight: bold;
     rotate: 57deg;
+    text-shadow: 3px 0px 7px rgba(81,67,21,0.8), -3px 0px 7px rgba(81,67,21,0.8), 0px 4px 7px rgba(81,67,21,0.8);
 }
 .current-indus p{
     font-size: 10px;
@@ -239,19 +240,195 @@
     left: 225px; top: -20px;
 }
 
+/* siteplan styling */
 
+.site-plan{
+    width: 100%;
+    height: 175vh;
+    background-color: #2D3241;
+}
+.site-plan h3{
+    color: #FFCB05;
+    padding: 50px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.site-plan img{
+    width: 90%;
+    height: 70vh;
+    margin-left: 3rem;
+}
+.sitePlan-content{
+    text-align: center;
+    background-color: #2D3241;
+}
+.sitePlan-content .line{
+    width: 400px;
+    height: 1px;
+    margin: 2rem auto;
+    background-color: #FFCB05;
+}
+.sitePlan-content h4{
+    color: #DBBB72;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.sitePlan-content p{
+    color: #fff;
+}
+.site-detail{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.wild-road{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wild-road img{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+.wild-road h5{
+    font-size: 14px;
+    color: #DBBB72;
+    text-transform: capitalize;
+}
+.wild-road p{
+    font-size: 10px;
+    color: #fff;
+}
+.site-img-blur{
+    height: 100px;
+    background: linear-gradient(to top, rgba(255,0,0,0), #2D3241);
+}
+.site-img{
+    width: 100%; height: 150vh;
+    background: url(Images/aerial_view_v2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.site-img-content h4{
+    position: absolute;
+    top: 62%; left: 43%;
+    rotate: 319deg;
+    color: #FFCB05;
+    text-transform: uppercase;
+    text-shadow: 3px 0px 7px rgba(81,67,21,0.8), -3px 0px 7px rgba(81,67,21,0.8), 0px 4px 7px rgba(81,67,21,0.8);
+}
 
+/* unparallel-sec stylng */
 
-
-
-
-
-
-
-
-
-
-
+.unparallel-sec{
+    display: flex;
+    width: 100%;
+    height: 150vh;
+    background-color: #2D3241;
+}
+.unparallel-content{
+    width: 35%;
+    text-align: center;
+}
+.unparallel-content h3{
+    color: #DBBB72;
+    text-transform: uppercase;
+    padding: 100px 0 0;
+}
+.unparallel-content-pra{
+    padding: 20px 0 0;
+    color: #DBBB72;
+    text-transform: uppercase;
+}
+.unparallel-content span{
+    font-size: 14px;
+    color: #fff;
+}
+.unparallel-map{
+    width: 65%;
+}
+.unparallel-map img{
+    width: 100%;
+    height: 150vh;
+}
+.transport-section{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+.truck-sec{
+    width: 40%;
+}
+.truck-sec img{
+    width: 60px;
+}
+.truck-content p{
+    color: #fff;
+    font-size: 12px;
+    margin: 5px;
+    text-align: left;
+}
+.truck-content .content-1{
+    border-bottom: 2px solid #DBBB72;
+}
+.palne-sec{
+    width: 60%;
+}
+.palne-sec img{
+    width: 90px;
+}
+.palne-sec .content-1{
+    display: flex;
+    align-items: center;
+}
+.palne-sec .content-2{
+    display: flex;
+    align-items: center;
+}
+.palne-sec span{
+    font-size: 12px;
+    color: #FFCB05;
+}
+.palne-sec p{
+    font-size:12px;
+}
+.train-content{
+    margin-top: 50px;
+}
+.train-content .content-1{
+    border-bottom: 2px solid #FFCB05;
+}
+.train-content p{
+    margin: 5px;
+    color: #fff;
+    text-align: left;
+    font-size: 12px;
+}
+.ship-sec{
+    margin-left: 20px;
+    text-align: left;
+}
+.ship-sec img{
+    width: 100px;
+}
+.ship-sec p{
+    margin: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.ship-sec span{
+    color: #FFCB05;
+}
+.ship-sec .content-1{
+    width: 30%;
+    border-bottom: 2px solid #FFCB05;
+}
 
 
 
