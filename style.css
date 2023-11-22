@@ -82,6 +82,179 @@
 .bottom-headings{
     color: #fff;
 }
+
+/* Embrace styling */
+
+.embrace-section{
+    width: 100%;
+    height: 100vh;
+    background: url(Images/main\ img.jpg);
+    background-size: cover;
+}
+.embrace-color{
+    height: 100px;
+    background: linear-gradient(to top, rgba(255,0,0,0), #2D3241);
+}
+.embrace-text{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #2D3241;
+}
+.embrace-text h3{
+    color: #DBBB72;
+    text-transform: uppercase;
+}
+.embrace-locations{
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    text-transform: uppercase;
+}
+.future-res p{
+    position: absolute;
+    top: 1rem; left: 2.2rem;
+    text-align: center;
+}
+.lake-park p{
+    position: absolute;
+    top: 10.6rem; left: 10.3rem;
+    text-align: center;
+}
+.west-cost p{
+    position: absolute;
+    top: 10.6rem; left: 14.3rem;
+    text-align: center;
+    color: #FFCB05;
+    font-weight: bold;
+    rotate: 57deg;
+}
+.current-indus p{
+    font-size: 10px;
+    position: absolute;
+    top: 1.8rem; right: 28.1rem;
+    text-align: center;
+}
+.park-entrence p{
+    font-size: 10px;
+    position: absolute;
+    top: 5.6rem; right: 18.7rem;
+    text-align: center;
+}
+.future-commercial p{
+    position: absolute;
+    top: 8.1rem; right: 28.1rem;
+    text-align: center;
+}
+.lake-park-2 p{
+    position: absolute;
+    top: 13.1rem; right: 26rem;
+    text-align: center;
+}
+.bbr-park-3 p{
+    font-size: 12px;
+    position: absolute;
+    top: 10.6rem; right: 3.1rem;
+    text-align: center;
+}
+.jalan-haji p{
+    position: absolute;
+    top: 18.7rem; right: 21.8rem;
+    text-align: center;
+}
+.i-factories{
+    position: relative;
+}
+.i3-factory{
+    width: 10rem;
+}
+.i3-factory p{
+    margin: 0;
+    line-height: 1;
+    padding: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: #FFCB05;
+    right: 512px; top: -55px;
+}
+.i3-factory span{
+    font-size: 10px;
+}
+.i3-factory .line{
+    width: 120px;
+    height: 0.5px;
+    rotate: 90deg;
+    background-color: #FFCB05;
+    position: absolute;
+    right: 600px; top: 5px;
+}
+.i4-factory{
+    width: 10rem;
+}
+.i4-factory p{
+    margin: 0;
+    line-height: 1;
+    padding: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: #FFCB05;
+    left: 439px; top: -55px;
+}
+.i4-factory span{
+    font-size: 10px;
+}
+.i4-factory .line{
+    width: 80px;
+    height: 0.5px;
+    rotate: 90deg;
+    background-color: #FFCB05;
+    position: absolute;
+    left: 400px; top: 20px;
+}
+.i5-factory{
+    width: 10rem;
+}
+.i5-factory p{
+    margin: 0;
+    line-height: 1;
+    padding: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: #FFCB05;
+    left: 250px; top: -90px;
+}
+.i5-factory span{
+    font-size: 10px;
+}
+.i5-factory .line{
+    width: 50px;
+    height: 0.5px;
+    rotate: 90deg;
+    background-color: #FFCB05;
+    position: absolute;
+    left: 225px; top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:992px){
     #navbarSupportedContent{
         display: block;
